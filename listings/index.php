@@ -3,4 +3,6 @@
 <?php
 $template = new Template('templates/landingpage.php');
 
+$template->title = 'Latest Postings';
+
 echo $template;
